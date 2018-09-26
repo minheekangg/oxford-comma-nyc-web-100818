@@ -5,3 +5,6 @@ def oxford_comma(array)
     list = ""
     if array.length > 2
       list = (array[0..-2].join) + ", and " + array[-1]
+    end
+    return list
+  end
