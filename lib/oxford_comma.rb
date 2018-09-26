@@ -5,5 +5,5 @@ def oxford_comma(array)
     i=1
     list = array[0]
     while array.length > 2
-      list = list + " , "array[i]
+      list = list + " , " + array[i]
 end
