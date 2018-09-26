@@ -9,5 +9,6 @@ def oxford_comma(array)
       i+=1
     end
     list = list + array[-2] + " and " + array[-1]
+  end
     return list
 end
