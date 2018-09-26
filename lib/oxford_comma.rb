@@ -8,5 +8,5 @@ def oxford_comma(array)
       list = list + " , " + array[i]
       i+=1
     end
-    
+    return list
 end
