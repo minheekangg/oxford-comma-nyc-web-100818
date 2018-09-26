@@ -4,6 +4,6 @@ def oxford_comma(array)
   elsif
     i=1
     list = array[0]
-    while array.length > 2
+    while array.length > 1
       list = list + " , " + array[i]
 end
