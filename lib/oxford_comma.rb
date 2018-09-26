@@ -2,13 +2,6 @@ def oxford_comma(array)
   if array.length == 1
     return array.join
   elsif
-    i=1
-    list = array[0] + " "
-    while i < array.length[-2]
-      list = list + " , " + array[i]
-      i+=1
-    end
-  end
-    list = list + array[-2] + " and " + array[-1]
-    return list
-end
+    list = ""
+    if array.length > 2
+      list = (array[0..-2].join) + ", and " + array[-1]
